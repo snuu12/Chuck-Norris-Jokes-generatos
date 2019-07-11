@@ -21,7 +21,7 @@ public class JokesControler {
     public String generateJoke(ModelMap map){
         ChuckNorrisQuotes joke =new ChuckNorrisQuotes();
 
-        map.put("Quote",joke.getRandomQuote());
+        map.put("quote",joke.getRandomQuote());
         return "joke"; //przejdz do pliku://resources/templates/joke.html
 
     }
