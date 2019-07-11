@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 @Controller
-public class JokesControler {
+public class JokesController {
 
     /*po adresie url:
     localhost:8080 /przechodzi do metody generateJoke()
